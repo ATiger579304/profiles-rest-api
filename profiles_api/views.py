@@ -1,6 +1,9 @@
+# The imports below are for API Views
 from rest_framework.views import APIView
 from rest_framework.response import Response
+# THe following is to include the use of base status codes
 from rest_framework import status
+
 from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework import filters

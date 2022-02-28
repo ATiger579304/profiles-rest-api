@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+"""include is required to include url patterns from our custom app
+    Below we assign api as the prefix to the urls for our app"""
 
 urlpatterns = [
     path('admin/', admin.site.urls),
